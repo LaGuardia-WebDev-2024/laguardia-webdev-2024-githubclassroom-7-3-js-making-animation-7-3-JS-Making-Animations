@@ -1,0 +1,22 @@
+/* Polka Dot Background Found at Link Below
+https://codepen.io/poonam-adlakha/pen/PoRJeKM */
+
+html {
+    background: radial-gradient(#FFFFFF 10%, transparent 10%),                    radial-gradient(#FFFFFF 10%,transparent 10%),
+               radial-gradient(#FFFFFF 10%, transparent 10%) #c0d3ed;
+    background-size: 100px 100px;
+    background-position: 0 0, 25px 25px, 50px 50px;
+    text-align: center;
+}
+
+h1, h2{
+  background-color: white;
+  color: #c0d3ed;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+#myCanvas{
+  border: 5px solid #c0d3ed;
+}
